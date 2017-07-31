@@ -67,7 +67,7 @@ function generate () {
   button.tooltip('disable')
   generator.generate().then(function (result) {
     console.log('')
-    button.removeClass('disabled')
+    button.removeClass('disabled') 
     textarea.val(result)
     textarea.focus()
     textarea.select()
